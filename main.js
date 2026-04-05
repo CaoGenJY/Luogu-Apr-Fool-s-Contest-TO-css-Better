@@ -10,9 +10,6 @@
 
 (async function() {
     'use strict';
-    console.log('main.js已启动');
-    // 1. 获取所有 class 为 test-case 的 div
-
     const timer = setTimeout(() => {
         const testCases = document.querySelectorAll('.test-case');
         const infos = document.querySelectorAll('.test-case .content .info');
